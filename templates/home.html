@@ -1,0 +1,11 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="home">
+    <h1>My homepage</h1>
+    <p>This is a sweet website</p>
+    <img src="{{url_for('static',filename='images/freenoteswing.JPG')}}" width ="200" height="200">
+    <audio controls>
+      <source src="{{url_for('static',filename='mp3/rezsequence.mp3')}}" type="audio/mp3">
+    </audio>
+</div>
+{%endblock%}
