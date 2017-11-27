@@ -10,5 +10,9 @@ def index():
 def diy():
     return render_template("diy.html")
 
+@app.route('/basslines/')
+def basslines():
+    return render_template("basslines.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Basslines By Greg</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/3-col-portfolio.css')}}">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Greg Stull Soundlab</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li>
+                      <a href="{{url_for('index')}}">Samplesets</a>
+                    </li>
+                    <li>
+                      <a href="{{url_for('diy')}}">DIY</a>
+                    </li>
+                    <li>
+                      <a href="{{url_for('basslines')}}">Basslines</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <center>
+                  <h1 class="page-header">Basslines By Greg
+                </h1>
+                </center>
+            </div>
+        </div>
+
+        <!-- /.row EXPLANATION -->
+
+
+        <!-- /.row -->
+
+        <!-- Row 1 -->
+        <div class="row">
+              <h3>
+                  SX Bass
+              </h3>
+                <img class="img-responsive" src="{{url_for('static',filename='images/SXlongview.jpeg')}}" width ="100" height="100" alt="">
+              <br>
+
+              <h3>
+                  100 bpm A minor
+              </h3>
+
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100AAAAACCCCDDDDDCCCC.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100AACDfgfDCD.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100ABCDeDCB.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100AeDe.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100AefD.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Aminor/100afcafeADED.wav')}}" type="audio/wav">
+              </audio>
+
+              <h3>
+                  100 bpm B mixolydian (E major)
+              </h3>
+
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Bmixolydian/100aa_ea_ee_Be_eg_.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Bmixolydian/100BBe_g_ae2_bag_e_.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Bmixolydian/100BBg_g_g_aag_g_Ae_e_eeAg_ee_.wav')}}" type="audio/wav">
+              </audio>
+
+              <audio controls>
+                <source src="{{url_for('static',filename='basslines/SX/100bpm/Bmixolydian/100Be_eg_eea_aba_a.wav')}}" type="audio/wav">
+              </audio>
+
+
+
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
