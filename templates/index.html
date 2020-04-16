@@ -1,145 +1,145 @@
 {%extends "layout.html"%}
 {% block title %}Samplesets{% endblock %}
 {%block content%}
-    <!-- Page Content -->
+<!-- Page Content -->
 
 
-        <!-- Page Header -->
-        <!-- Page Header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <center>
-                  <h1 class="page-header">SAMPLED INSTRUMENTS
-                </h1>
-                </center>
-            </div>
+<!-- Page Header -->
+<!-- Page Header -->
+<div class="row">
+  <div class="col-lg-12">
+    <center>
+      <h1 class="page-header">SAMPLED INSTRUMENTS
+      </h1>
+    </center>
+  </div>
+</div>
+
+<!-- /.row -->
+
+<!-- Row 1 -->
+<div class="row">
+  <div class="col-md-4 portfolio-item">
+    <h3>
+      Freenote's Wing
+    </h3>
+    <table>
+      <tr>
+        <td>
+          <img class="img-responsive" src="{{url_for('static',filename='images/freenotewing.jpg')}}" width ="100" height="100" alt="">
+        </td>
+        <td>
+          <a href ="http://www.singlecellsoftware.com/node/12625">
+            <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+          </a>
+        </td>
+        <td>
+          <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
+            <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
+          </a>
+        </td>
+      </tr>
+    </table>
+    <audio controls>
+      <source src="{{url_for('static',filename='mp3/FREENOTE DEMO GS_2.mp3')}}" type="audio/mp3">
+      </audio>
+      <p>2.7 Mb .pcmsynth .instr </p>
+    </div>
+    <div class="col-md-4 portfolio-item">
+      <h3>
+        Kid's Glockenspiel
+      </h3>
+      <table>
+        <tr>
+          <td>
+            <img class="img-responsive" src="{{url_for('static',filename='images/kidglock.jpg')}}" width ="100" height="100" alt="">
+          </td>
+          <td>
+            <a href ="http://www.singlecellsoftware.com/node/12624">
+              <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+            </a>
+          </td>
+          <td>
+            <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
+              <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
+            </a>
+          </td>
+        </tr>
+      </table>
+      <audio controls>
+        <source src="{{url_for('static',filename='mp3/KIDGLOCKDEMO GS_2.mp3')}}" type="audio/mp3">
+        </audio>
+        <p>1.8 Mb .pcmsynth .instr</p>
+      </div>
+
+      <div class="col-md-4 portfolio-item">
+        <h3>
+          Muted Glockenspiel
+        </h3>
+        <table>
+          <tr>
+            <td>
+              <img class="img-responsive" src="{{url_for('static',filename='images/mutedglock.jpg')}}" width ="100" height="100" alt="">
+            </td>
+            <td>
+              <a href ="http://www.singlecellsoftware.com/node/1282">
+                <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+              </a>
+            </td>
+            <td>
+              <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
+                <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
+              </a>
+            </td>
+          </tr>
+        </table>
+        <audio controls>
+          <source src="{{url_for('static',filename='mp3/mutedglock.mp3')}}" type="audio/mp3">
+          </audio>
+          <p>1.3 Mb .pcmsynth .instr</p>
         </div>
+      </div>
+      <!-- /.row -->
 
-              <!-- /.row -->
-
-        <!-- Row 1 -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Freenote's Wing
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/freenotewing.jpg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/12625">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-                    <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </table>
-                <audio controls>
-                  <source src="{{url_for('static',filename='mp3/FREENOTE DEMO GS_2.mp3')}}" type="audio/mp3">
-                </audio>
-                <p>2.7 Mb .pcmsynth .instr </p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Kid's Glockenspiel
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/kidglock.jpg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/12624">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-                    <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </table>
-                <audio controls>
-                  <source src="{{url_for('static',filename='mp3/KIDGLOCKDEMO GS_2.mp3')}}" type="audio/mp3">
-                </audio>
-                <p>1.8 Mb .pcmsynth .instr</p>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                Muted Glockenspiel
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/mutedglock.jpg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/1282">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-                    <a href ="http://forum.image-line.com/viewtopic.php?f=1964&t=78796&p=1178773#p1178773">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </table>
-              <audio controls>
-                <source src="{{url_for('static',filename='mp3/mutedglock.mp3')}}" type="audio/mp3">
-              </audio>
-                <p>1.3 Mb .pcmsynth .instr</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!--  Row 2 -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Balafon
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/balafonRS100x100.jpg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/1289">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-                    <a href ="">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </table>
-                <audio controls>
-                  <source src="{{url_for('static',filename='mp3/BALAFONDEMO_2.mp3')}}" type="audio/mp3">
-                </audio>
-                <p>2.2 Mb, .pcmsynth .instr</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Hank Drum
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Hankdrum.jpg')}}" width ="100" height="100" alt="">
+      <!--  Row 2 -->
+      <div class="row">
+        <div class="col-md-4 portfolio-item">
+          <h3>
+            Balafon
+          </h3>
+          <table>
+            <tr>
+              <td>
+                <img class="img-responsive" src="{{url_for('static',filename='images/balafonRS100x100.jpg')}}" width ="100" height="100" alt="">
+              </td>
+              <td>
+                <a href ="http://www.singlecellsoftware.com/node/1289">
+                  <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                </a>
+              </td>
+              <td>
+                <a href ="">
+                  <img class="img-responsive" src="{{url_for('static',filename='images/FLStudio_logo.png')}}" width ="50" height="50" alt="">
+                </a>
+              </td>
+            </tr>
+          </table>
+          <audio controls>
+            <source src="{{url_for('static',filename='mp3/BALAFONDEMO_2.mp3')}}" type="audio/mp3">
+            </audio>
+            <p>2.2 Mb, .pcmsynth .instr</p>
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <h3>
+              Hank Drum
+            </h3>
+            <table>
+              <tr>
+                <td>
+                  <img class="img-responsive" src="{{url_for('static',filename='images/Hankdrum.jpg')}}" width ="100" height="100" alt="">
                   <td>
                     <a href ="http://www.singlecellsoftware.com/comment/86786#comment-86786">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                      <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
                     </a>
                   </td>
                   <td>
@@ -149,132 +149,132 @@
               </table>
               <audio controls>
                 <source src="{{url_for('static',filename='mp3/hankdrumbuild.mp3')}}" type="audio/mp3">
-              </audio>
-              <p> .beatbox </p>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                Gankogui
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Gankogui.jpeg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/1968">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-
-                  </td>
-                </tr>
-              </table>
-              <audio controls>
-                <source src="{{url_for('static',filename='mp3/GANKOGUIDEMO.mp3')}}" type="audio/mp3">
-              </audio>
-              <p>1.2 Mb .beatbox </p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!--  Row 3 -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Cajon
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Cajon.jpeg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/5579">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-
-                </tr>
-              </table>
-                <audio controls>
-                  <source src="{{url_for('static',filename='mp3/CAJON.mp3')}}" type="audio/mp3">
                 </audio>
-                <p>.beatbox</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                  Doumbek
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/doumbek.jpeg')}}" width ="100" height="100" alt="">
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/1594">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
+                <p> .beatbox </p>
+              </div>
 
-                  </td>
-                </tr>
-              </table>
-              <audio controls>
-                <source src="{{url_for('static',filename='mp3/DOUMBEKDEMO.mp3')}}" type="audio/mp3">
-              </audio>
-              <p> .beatbox </p>
-            </div>
+              <div class="col-md-4 portfolio-item">
+                <h3>
+                  Gankogui
+                </h3>
+                <table>
+                  <tr>
+                    <td>
+                      <img class="img-responsive" src="{{url_for('static',filename='images/Gankogui.jpeg')}}" width ="100" height="100" alt="">
+                    </td>
+                    <td>
+                      <a href ="http://www.singlecellsoftware.com/node/1968">
+                        <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                      </a>
+                    </td>
+                    <td>
 
-            <div class="col-md-4 portfolio-item">
-              <h3>
-                PVC Flute
-              </h3>
-              <table>
-                <tr>
-                  <td>
-                    <img class="img-responsive" src="{{url_for('static',filename='images/pvcflute.jpg')}}" width ="100" height="100" alt="">
-                  </td>
-                  <td>
-                    <a href ="http://www.singlecellsoftware.com/node/15094">
-                    <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
-                    </a>
-                  </td>
-                  <td>
-
-                  </td>
-                </tr>
-              </table>
-              <audio controls>
-                <source src="{{url_for('static',filename='mp3/pvcflutebuild.mp3')}}" type="audio/mp3">
-              </audio>
-              <p> .pcmsynth </p>
-            </div>
-        </div>
-        <!-- /.row -->
-        <div class="row">
-            <p>Listed above are several instruments which I took ("one-shot") recordings of individual notes from simply using an SM57 (and AKG D112) microphone(s) and an M-audio interface.
-        Those recordings were subsequently mapped for use in Android/iOS music production apps; specifically Caustic's PCMsynth/Beatbox machines and/or FLStudio Mobile's Directwave Sampler.</p>
-        <p>
-        Clicking on the company logos will lead to links to download the samplesets in the respective formats from the company forums.</p>
-        <p>I would like to provide more formats and more intuitive download methods at a later date, and also include tutorial videos.</p>
-
-        <p>
-        The media players below each instrument image play a short demo .mp3 created using each sampleset.</p>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                    </td>
+                  </tr>
+                </table>
+                <audio controls>
+                  <source src="{{url_for('static',filename='mp3/GANKOGUIDEMO.mp3')}}" type="audio/mp3">
+                  </audio>
+                  <p>1.2 Mb .beatbox </p>
                 </div>
-            </div>
-            <!-- /.row -->
-        </footer>
+              </div>
+              <!-- /.row -->
+
+              <!--  Row 3 -->
+              <div class="row">
+                <div class="col-md-4 portfolio-item">
+                  <h3>
+                    Cajon
+                  </h3>
+                  <table>
+                    <tr>
+                      <td>
+                        <img class="img-responsive" src="{{url_for('static',filename='images/Cajon.jpeg')}}" width ="100" height="100" alt="">
+                      </td>
+                      <td>
+                        <a href ="http://www.singlecellsoftware.com/node/5579">
+                          <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                        </a>
+                      </td>
+
+                    </tr>
+                  </table>
+                  <audio controls>
+                    <source src="{{url_for('static',filename='mp3/CAJON.mp3')}}" type="audio/mp3">
+                    </audio>
+                    <p>.beatbox</p>
+                  </div>
+                  <div class="col-md-4 portfolio-item">
+                    <h3>
+                      Doumbek
+                    </h3>
+                    <table>
+                      <tr>
+                        <td>
+                          <img class="img-responsive" src="{{url_for('static',filename='images/doumbek.jpeg')}}" width ="100" height="100" alt="">
+                          <td>
+                            <a href ="http://www.singlecellsoftware.com/node/1594">
+                              <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                            </a>
+                          </td>
+                          <td>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <audio controls>
+                        <source src="{{url_for('static',filename='mp3/DOUMBEKDEMO.mp3')}}" type="audio/mp3">
+                        </audio>
+                        <p> .beatbox </p>
+                      </div>
+
+                      <div class="col-md-4 portfolio-item">
+                        <h3>
+                          PVC Flute
+                        </h3>
+                        <table>
+                          <tr>
+                            <td>
+                              <img class="img-responsive" src="{{url_for('static',filename='images/pvcflute.jpg')}}" width ="100" height="100" alt="">
+                            </td>
+                            <td>
+                              <a href ="http://www.singlecellsoftware.com/node/15094">
+                                <img class="img-responsive" src="{{url_for('static',filename='images/Caustic_logo.png')}}" width ="50" height="50" alt="">
+                              </a>
+                            </td>
+                            <td>
+
+                            </td>
+                          </tr>
+                        </table>
+                        <audio controls>
+                          <source src="{{url_for('static',filename='mp3/pvcflutebuild.mp3')}}" type="audio/mp3">
+                          </audio>
+                          <p> .pcmsynth </p>
+                        </div>
+                      </div>
+                      <!-- /.row -->
+                      <div class="row">
+                        <p>Listed above are several instruments which I took ("one-shot") recordings of individual notes from simply using an SM57 (and AKG D112) microphone(s) and an M-audio interface.
+                          Those recordings were subsequently mapped for use in Android/iOS music production apps; specifically Caustic's PCMsynth/Beatbox machines and/or FLStudio Mobile's Directwave Sampler.</p>
+                          <p>
+                            Clicking on the company logos will lead to links to download the samplesets in the respective formats from the company forums.</p>
+                            <p>I would like to provide more formats and more intuitive download methods at a later date, and also include tutorial videos.</p>
+
+                            <p>
+                              The media players below each instrument image play a short demo .mp3 created using each sampleset.</p>
+                            </div>
+
+                            <!-- Footer -->
+                            <footer>
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <p> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                                </div>
+                              </div>
+                              <!-- /.row -->
+                            </footer>
 
 
-    <!-- /.container -->
-{%endblock%}
+                            <!-- /.container -->
+                            {%endblock%}
