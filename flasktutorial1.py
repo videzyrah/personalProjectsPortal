@@ -19,7 +19,7 @@ def ppp():
     return render_template("ppp.html")
 
 @app.route('/anarchademics')
-def ppp():
+def anarchademics():
     return render_template("anarchademics.html")
 
 if __name__ == "__main__":
