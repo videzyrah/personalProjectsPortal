@@ -1,9 +1,9 @@
 h1{
-  background-color: rgb(0,125,255);
+  background: rgb(0,125,255);
 }
 h2{
-  background-color: rgb(0,255,255);
+  color: rgb(0,100,255);
 }
 section article h4{
-  background-color: rgb(100,255,0);
+  color: rgb(0,255,0);
 }
