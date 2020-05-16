@@ -18,9 +18,13 @@ def basslines():
 def ppp():
     return render_template("ppp.html")
 
-@app.route('/anarchademics')
+@app.route('/anarchademics/')
 def anarchademics():
     return render_template("anarchademics.html")
+
+@app.route('/chimes/')
+def anarchademics():
+    return render_template("chimes.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
