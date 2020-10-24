@@ -28,7 +28,7 @@ def chimes():
 
 @app.route('/darkGourds/')
 def darkGourds():
-    return render_template("darkGourds.html")
+    return render_template("darkgourds.html")
 
 @app.route("/success", methods=['POST'])
 def success():
