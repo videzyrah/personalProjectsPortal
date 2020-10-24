@@ -18,5 +18,9 @@ def basslines():
 def ppp():
     return render_template("ppp.html")
 
+@app.route('/darkGourds/')
+def ppp():
+    return render_template("DarkGourds.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
