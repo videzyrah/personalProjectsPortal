@@ -19,7 +19,7 @@ def ppp():
     return render_template("ppp.html")
 
 @app.route('/darkGourds/')
-def ppp():
+def darkGourds():
     return render_template("DarkGourds.html")
 
 if __name__ == "__main__":
