@@ -26,6 +26,10 @@ def anarchademics():
 def chimes():
     return render_template("chimes.html")
 
+@app.route('/darkGourds/')
+def darkGourds():
+    return render_template("darkGourds.html")
+
 @app.route("/success", methods=['POST'])
 def success():
     if request.method=='POST':
