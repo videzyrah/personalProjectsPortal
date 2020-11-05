@@ -22,5 +22,9 @@ def ppp():
 def darkGourds():
     return render_template("darkGourds.html")
 
+@app.route('/triphop/')
+def triphop():
+    return render_template("triphop.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

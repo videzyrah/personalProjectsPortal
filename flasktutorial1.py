@@ -30,6 +30,10 @@ def chimes():
 def darkGourds():
     return render_template("darkgourds.html")
 
+@app.route('/triphop/')
+def triphop():
+    return render_template("triphop.html")
+
 @app.route("/success", methods=['POST'])
 def success():
     if request.method=='POST':
