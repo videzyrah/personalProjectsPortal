@@ -14,9 +14,9 @@ def diy():
 def basslines():
     return render_template("basslines.html")
 
-@app.route('/ppp/')
-def ppp():
-    return render_template("ppp.html")
+@app.route('/soundsamples/')
+def soundsamples():
+    return render_template("soundsamples.html")
 
 @app.route('/anarchademics/')
 def anarchademics():

@@ -1,1 +1,0 @@
-web: gunicorn flasktutorial1:app
